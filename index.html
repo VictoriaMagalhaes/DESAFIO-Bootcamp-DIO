@@ -1,0 +1,150 @@
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Desafio Dio</title>
+</head>
+
+<body>
+    <h1 id="inicio">Introdução ao HTML na Prática</h1>
+    <hr />
+    <h2>Índice</h2>
+
+    <ul>
+        <li><a href="#html">O Que é HTML?</a></li>
+        <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+        <li><a href="#inspetor">Inspetor de Elementos</a></li>
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#tags">Falando sobre Tags</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#ref">Referências</a></li>
+    </ul>
+
+    <h2 id="html">O Que é HTML?</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        O Hypertext Markup Language (em português: Linguagem de Marcação de Hipertexto), é a linguagem que irá exibir a informação.
+        Permite que os desenvolvedores desenhem como serão exibidos, pelo navegador, os elementos da página. Ou seja, ela dá <i>significado</i><sup>1</sup>.
+        Isso é importante por que alguns sistemas como o Google, que irão ler sua página, precisam entender o que é cada elemento nela e o que cada um desses elementos significam.
+    </p>
+
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        O VS Code (Visual Studio Code) será a ferramenta utilizada durante do curso.
+        Para o dowload, é só clicar <a href="https://code.visualstudio.com/download" target="_blank">aqui</a>.
+    </p>
+
+    <h2 id="inspetor">Inspetor de Elementos</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        Essa ferramenta é oferecida pelo navegador, vamos utilizar o Crhome; os navegadores como Safari, Edge ou Opera também disponibilizam essa ferramenta, que ajuda bastante no desenvolvimentos das páginas. Para ter o acesso basta selecionar o botão F12, o navegador abrirá uma nova janela onde te mostra diversas informações sobre como cada parte da Página foi criada e sua formatação(cor da fonte, tamanho da fonte e etc)
+    </p>
+
+    <h2 id="estrutura">Estrutura Básica do HTML</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        O documento HTML sempre inicia com o que chamamos de <strong>estrutura básica</strong>. Esta estrutura é quase que imutável. É aconselhável que você inicie seu HTML por esse código. Geralmente os editores como o Sublime Text já tem atalhos para iniciar os documentos HTMLs com essa estrutura, logo, você não precisa se preocupar em decorá-la, mas é bom que faça. Veja abaixo como ela se inicia:
+        <img center width="270"
+            src="https://www.galinhaprogramadora.com.br/wp-content/uploads/2019/06/html-estrutura-do-documento-1-768x549.png"
+            alt="Imagem onde mostra a Estrutura básica do HTML, contendo as tags: html, head e body.">
+    </p>
+
+    <h2 id="tags">Falando sobre Tags</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <h4>O que são Tags?</h4>
+    <p>Tags são o conjunto de caracteres que formam um elemento.</p>
+    <p>
+        Existem dois tipos de Tags, as que <u>necessitam de fechamento</u> e as que <u>não necessitam de fechamento</u>.</p>
+
+    <p>
+        Para as que necessitam de fechamento, utilizamos o sinal de menor ( < ), seguido do nome do elemento e o sinal de maior (> ) para abertura. Para fechamento, utilizamos o sinal de menor ( < ), seguido de barra ( / ), nome do elemento e o sinal de maior (> ).
+    </p>
+
+    <p>
+        Os elementos que não necessitam de fechamento, também conhecidos como elementos vazios, somente utilizamos o sinal de menor ( < ), seguido do nome do elemento e o sinal de maior (> ).
+    </p>
+
+    <p>
+        O documento HTML começa com a tag <em>< html ></em> e termina com a marca <em>< /html ></em>. Além disso, o documento contém um cabeçalho que descreve, por exemplo, o título da página (tag <em>< head ></em>) e um corpo no qual se encontra o conteúdo da página (tag <em>< body ></em>).
+    </p>
+
+    <p>
+        Além dessas, há uma infinidade de tags que nos auxiliam na hora de criar uma Página Web, exemplo de algumas na imagem abaixo:
+    </p>
+    <img width="300" src="img/Tags-HTML.png" alt="Tabela onde mostra exemplos de Tags utilizadas no HTML">
+    <figcaption>Tabela onde mostra exemplos de Tags utilizadas no HTML — Foto: Colinhas</figcaption>
+
+    <h2 id="textos">Textos</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <h4>Tags especificas para Textos</h4>
+    <p>
+        <b>Os elementos HTML < h1> - < h6></b> representam seis níveis de título de seção. Sendo < h1> o nível de seção mais alto e < h6> o mais baixo.
+    </p>
+    <p>
+        Exemplo: < h1> <i>(observe o tamanho da fonte)</i>
+        <h1>Texto h1</h1>
+    </p>
+    <p>
+        Exemplo: < h6> <i>(observe o tamanho da fonte)</i>
+        <h6>Texto h6</h6>
+    </p>
+    <p>
+        <b>O elemento HTML < p></b> representa um parágrafo. No HTML,parágrafos são usados para agrupar conteúdos relacionados de qualquer tipo, como imagens e campos de um formulário.
+    </p>
+
+    <blockquote>
+        <p>
+            <b>O Elemento HTML < blockquote></b> indica que o texto incluído é uma longa citação.
+        </p>
+    </blockquote>
+
+    <p>
+        <b>O Elemento HTML < i></b> é apresentado com o uso do tipo <i>"itálico"</i>.
+    </p>
+    <p>
+        <b>O Elemento < u></b> é apresentado com o uso do tipo <u>"sublinhado"</u>.
+    </p>
+    <p>
+        <b>O Elemento < b></b> é apresentado com o uso do tipo <b>"negrito"</b>.
+    </p>
+
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>Essa Tag nos permite criar listas de itens em ordem numérica ou sem ordem numérica.</p>
+    <p>
+        <b>O Elemento HTML < ul></b>, conhecido como Lista Desordenada, cria a lista de itens sem ordem rígida, isso é, uma coleção de itens que não trazem uma ordenaçao numérica e as suas posições, nessa lista, são irrelevantes.
+    </p>
+    <p>Exemplo de Lista não Ordenada:</p>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+    <p>
+        <b>O Elemento HTML < ol></b>, conhecido como Lista Ordenada, cria uma lista de itens com ordem numérica.
+    </p>
+    <p>Exemplo de Lista Ordenada:</p>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ol>
+
+    <h2 id="links">Links</h2> <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        Os links são encontrados em quase todas as páginas da web. Os links permitem que os usuários cliquem de uma página para outra.</p>
+    <p>
+        <b>A tag HTML < a></b> define um hiperlink. O atributo mais importante do elemento é o < href> atributo, que indica o destino do link. O texto do link é a parte que ficará visível para o leitor. Clicar no texto do link enviará o leitor para o endereço de URL especificado.
+    </p>
+    <p>Exemplo:</p>
+    <img width="300" src="img/ExemploDaTag.PNG" alt="Imagem exemplo de como usa a Tag na ferramenta VS Code">
+    <hr>
+    <iframe width="400px" height="200px" src="https://www.dio.me/"></iframe>
+
+    <h3 id="ref">Referências</h3> <small><a href="#inicio">[Voltar]</a></small>
+    <ol>
+        <li><a href="https://tableless.github.io/iniciantes/manual/html/oquesemantica.html" target="_blank">1. Significado</a></li>
+        <li><a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/a" target="_blank">Documentação do VS Code</a></li>
+        <li><a href="https://tableless.github.io/iniciantes/manual/html/index.html" target="_blank">Getting Started - github</a></li>
+        <li><a href="https://www.galinhaprogramadora.com.br/2019/06/html-5-estruturando-seu-site-com-as-tags-corretas.html" target="_blank">HTML 5 - Galinha Programadora</a></li>
+        <li><a href="https://www.w3schools.com/html/html_intro.asp" target="_blank">W3schools</a></li>
+    </ol>
+</body>
+
+</html>
